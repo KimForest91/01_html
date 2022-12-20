@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>Table</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <link rel="icon" type="image/ico" href="../favicon.ico" />
+    <link rel="stylesheet" href="../css/style-pc.css" />
+    <script src="../js/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+    <table>
+      <caption>오늘의 메뉴</caption>
+      <colgroup>
+        <col class="day">
+        <col class="mon">
+        <col class="tue">
+        <col class="wed">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>구분</th>
+          <th>월</th>
+          <th>화</th>
+          <th>수</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>아침</td>
+          <td>샐러드</td>
+          <td>달걀프라이</td>
+          <td>된장찌개+밥</td>
+        </tr>
+        <tr>
+          <td>점심</td>
+          <td rowspan="2">떡볶이</td>
+          <td>라면</td>
+          <td>짜장면</td>
+        </tr>
+        <tr>
+          <td>저녁</td>
+          <td colspan="2">순두부찌개</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <thead>
+          <tr>
+            <td></td>
+            <td>맛있고</td>
+            <td>즐거운</td>
+            <td>식사시간</td>
+          </tr>
+        </thead>
+      </tfoot>
+    </table>
+
+  </body>
+</html>

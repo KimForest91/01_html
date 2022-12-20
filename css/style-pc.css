@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+
+/* display-value */
+.block {width: 300px; height: 120px; background: pink;}
+.inline {width: 300px; height: 120px; background: green;}
+.inline-block {display: inline-block; width: 300px; height: 120px; background: yellow;}
+
+/* table class입히기 */
+.day {background-color: pink; width: 130px;}
+.mon {background-color: yellow;}
+.tue {background-color: orange;}
+.wed {background-color: green;}
+
+
+
+/* index */
+h2 {background-color: yellow; text-align: center;}
+section {background-color: pink;}
+div {background-color: skyblue;}
+
+header {text-align: center;}
